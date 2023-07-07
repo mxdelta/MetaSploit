@@ -75,6 +75,11 @@ exploit
 Для брута use auxiliary/scanner/ssh/ssh_login
 
 
+МИМИКАТЗ в метасплойт
+
+kiwi_cmd lsadump::sam
+
+
 
 eternalblue
 
