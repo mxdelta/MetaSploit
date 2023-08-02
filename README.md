@@ -74,6 +74,11 @@ set
 
 kiwi_cmd lsadump::sam
 
+Поиск уязвимостей ядра
+
+(в метерпретер-сессии)
+
+run post/multi/recon/local_exploit_suggester
 
 
 eternalblue в метасплойт
