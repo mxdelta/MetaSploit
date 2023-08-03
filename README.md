@@ -1,5 +1,7 @@
 # MetaSploit
 
+searchsploit desctop control   поиск эксплойта для названия
+
 Создаем реверс шелл для виндовс
 
 https://www.hackingarticles.in/msfvenom-cheatsheet-windows-exploitation/
