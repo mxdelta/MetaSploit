@@ -143,6 +143,10 @@ set lport 1231231
 
 run
 
+# настроить постоянное присутствие 
+
+https://www.offsec.com/metasploit-unleashed/meterpreter-service/
+
 
 
 
