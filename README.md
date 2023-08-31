@@ -1,5 +1,7 @@
 # MetaSploit
 
+https://habr.com/ru/companies/npoechelon/articles/347702/  (описание работы)
+
 searchsploit desctop control   поиск эксплойта для названия
 
 # расширение incognito для работы с токенами
