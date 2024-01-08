@@ -21,6 +21,18 @@ searchsploit desctop control   поиск эксплойта для назван
 
    creds_all
 
+# PsExec
+
+search psexec
+use psexec
+set rhosts
+set rport
+set smbuser
+set smbpassword (hash/passwd)
+set smbdomain
+run
+
+
 # использование эксплйтов ядра
 Kali VM
 
