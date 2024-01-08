@@ -6,7 +6,7 @@ searchsploit desctop control   поиск эксплойта для назван
 
 # расширение incognito для работы с токенами
 в метерпретер - load incognito
-   list_token -u
+   list_tokens -u
    
 # использование эксплйтов ядра
 Kali VM
