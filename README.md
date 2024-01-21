@@ -4,6 +4,10 @@ https://habr.com/ru/companies/npoechelon/articles/347702/  (описание р�
 
 searchsploit desctop control   поиск эксплойта для названия
 
+# Port Forward
+
+portfwd add -l 445 -p 445 -r 127.0.0.1
+
 # расширение incognito для работы с токенами
 в метерпретер: 
    
